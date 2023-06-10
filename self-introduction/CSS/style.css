@@ -1,0 +1,24 @@
+.baseFrame {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 97vh;
+    background: -webkit-repeating-linear-gradient(-45deg,#f9eaef 0,#f9ebef 10px,#fff 10px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#f9eaef 0,#f9ebef 10px,#fff 10px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#f9eaef 0,#f9ebef 10px,#fff 10px,#fff 20px);
+  }
+  .leftFrame {
+    background-color: rgba(76, 212, 87, 0.596);
+    width: 10%;
+    border: solid 1px;
+    margin-top: 0%;
+  }
+  .rightFrame {
+    background-color: rgba(78, 76, 212, 0.596);
+    width: 80%;
+    margin: 0 1px;
+    padding: 10px;
+    border: solid 1px;
+    overflow: auto;
+    margin-left: 0%;
+  }
